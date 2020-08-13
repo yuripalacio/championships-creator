@@ -32,6 +32,7 @@ O projeto Championships Creator foi desenvolvido para demonstrar meus conhecimen
 <br /><br />
 Na Aplicação Web é possível realizar um cadastro de um usuário com algumas informações básicas como Nome, E-mail e Senha.
 <br />
+
 <h1 align="center">
   <img alt="web" title="#web" src=".github/login.png" width="400px">
 </h1>
@@ -63,21 +64,23 @@ Com isso, teremos 32 times que irão se enfrentar nos Playoff no estilo mata-mat
 # 🛠Tecnologias
 
 ### Server (API)
-* [Node.JS](https://nodejs.org/en/docs/)
-* [TypeScript](https://www.typescriptlang.org/)
-* [Express](https://expressjs.com/)
-* [ProstgreSQL](https://www.postgresql.org/)
-* [Multer](https://www.npmjs.com/package/multer)
-* [Cors](https://github.com/expressjs/cors)
-* [Celebrate](https://www.npmjs.com/package/celebrate)
+
+- [Node.JS](https://nodejs.org/en/docs/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Express](https://expressjs.com/)
+- [ProstgreSQL](https://www.postgresql.org/)
+- [Multer](https://www.npmjs.com/package/multer)
+- [Cors](https://github.com/expressjs/cors)
+- [Celebrate](https://www.npmjs.com/package/celebrate)
 
 ### Web
-* [ReactJS](https://reactjs.org/)
-* [TypeScript](https://www.typescriptlang.org/)
-* [Axios](https://github.com/axios/axios)
-* [Ethereal](https://ethereal.email/)
 
-#  🚀Como Usar
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Axios](https://github.com/axios/axios)
+- [Ethereal](https://ethereal.email/)
+
+# 🚀Como Usar
 
 Para usar a aplicação, você precisa de [Git](https://git-scm.com), [Node.js][nodejs] e [Yarn][yarn] instalado no seu computador. Com as ferramentas instaladas, basta seguir os passos a seguir:
 
@@ -88,7 +91,7 @@ Para usar a aplicação, você precisa de [Git](https://git-scm.com), [Node.js][
 $ git clone https://github.com/yuripalacio/championships-creator
 ```
 
-### Server (API) 
+### Server (API)
 
 ```bash
 # Entre na pasta backend
@@ -97,8 +100,11 @@ $ cd championships-creator/back_end
 # Instale as dependências
 $ yarn
 ```
+
 ### Banco de Dados (API)
+
 No desenvolvimento utilizei o docker para subir meu banco.<br />
+
 ```bash
 # Crie o banco de dados (ProstgreSQL) no Docket
 $ docker run --name championshipscreator -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
@@ -125,9 +131,10 @@ $ yarn
 # Execute a aplicação web. A aplicação será aberta no endereço localhost na porta 3000
 $ yarn start
 ```
+
 ## Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/nathaliacristina20/gorestaurant/blob/master/LICENSE">LICENSE</a> para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/yuripalacio/championships-creator/blob/master/LICENSE">LICENSE</a> para mais detalhes.
 
 By [Yuri Palacio](https://www.linkedin.com/in/palacio/)
 
